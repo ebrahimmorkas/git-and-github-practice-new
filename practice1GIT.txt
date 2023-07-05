@@ -1,3 +1,10 @@
+Difference between GIT and GITHUB:
+GIT:
+GIT is uploading all your files locally on your computer. If you want to share your files with someone with all the commits it is not possoble beacause this is all locally on your computer. To overcome this GITHUB came into existence
+GITHUB:
+GITHUB is also same as GIT but in this you upload your files on remote server. If you upload in remote server and your repository is public then you can share your files with someone.
+
+
 Initialization of git:
 first open directory in cmd and then enter the command :- git init
 
@@ -10,3 +17,9 @@ Once you add the files in the staging area then you have to make the commits. Co
 
 Getting the last commited version:
 If you messed up with the current file and now you want the last version of the file then the command is :- git checkout <filename>
+
+Status:
+When you enter this command, it will show that whether the files has been added in the staging area or not or the file is modified when it is added in the staging area or the file is added in the staging area and whether the commit has been made or not. The syntax of command is :- git status
+
+log:
+when you enter this command it will show you all the commits made by you along with the commit message and at which time you had made that commit. The syntax is :- git log

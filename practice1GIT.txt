@@ -1,1 +1,12 @@
-Hello this is first version of file and this will be added.
+Initialization of git:
+first open directory in cmd and then enter the command :- git init
+
+Adding the files in the staging area:
+Then create the files in the folder then you have to add them in the staging area with the help of command :- git add <filename>
+If you want to add multiple files in the staging area then you can use the command:- git add .   this is not fullstop after add word it indicates that you want to add all the files in the staging area
+
+Making of commit:
+Once you add the files in the staging area then you have to make the commits. Commits should be understandable, it should not be something that cant be understand for eg if you complete your login form then make commit as login form completed. Commit can be made by command :- git commit -m "<commit message>"
+
+Getting the last commited version:
+If you messed up with the current file and now you want the last version of the file then the command is :- git checkout <filename>
